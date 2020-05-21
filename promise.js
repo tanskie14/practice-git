@@ -2,7 +2,7 @@
 function makeRequest(location){
     return new Promise( (resolve,reject)=> {
         console.log(`Making a new Request to ${location}`)
-
+		console.log('For Github Viewing')
         //response
         if (location === 'Google') {
             resolve('Google say Hi')
